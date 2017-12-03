@@ -8,7 +8,6 @@
     <artifactId>springcloud-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>consumer</module>
         <module>producer</module>
     </modules>
     <packaging>pom</packaging>
