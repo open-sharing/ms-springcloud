@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>producer</module>
+        <module>ribbon-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
