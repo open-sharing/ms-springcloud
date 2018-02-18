@@ -19,11 +19,6 @@
     </properties>
 
     <dependencies>
-        <!-- 依赖eureka -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
         <!-- 依赖feign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

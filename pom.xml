@@ -41,7 +41,11 @@
     </dependencyManagement>
 
     <dependencies>
-
+        <!-- 依赖eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
