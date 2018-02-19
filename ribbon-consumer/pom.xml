@@ -19,12 +19,6 @@
     </properties>
 
     <dependencies>
-        <!-- 依赖Web MVC -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
         <!-- 依赖负载均衡ribbon -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
