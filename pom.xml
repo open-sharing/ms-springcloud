@@ -8,8 +8,10 @@
     <artifactId>springcloud-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>eureka-server</module>
         <module>producer</module>
         <module>ribbon-consumer</module>
+        <module>feign-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -45,6 +47,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <!-- 自省和监控的集成功能-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 
