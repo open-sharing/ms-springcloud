@@ -8,6 +8,11 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 /**
  * 声明式RESTful API调用服务主类
  *
+ * [关键代码]
+ *   1. 依赖spring-cloud-starter-feign
+ *   2. 在启动类上额外加上@EnableFeignClients
+ *   3. 声明式调用服务的接口类@FeignClient
+ *
  * @author jwen
  */
 @EnableDiscoveryClient

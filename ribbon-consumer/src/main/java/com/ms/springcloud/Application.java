@@ -10,6 +10,10 @@ import org.springframework.web.client.RestTemplate;
 /**
  * Hello world!
  *
+ *  [关键代码]
+ *    1. spring-cloud-starter-ribbon
+ *    2. 启动类中初始化RestTemplate增加 @LoadBalanced
+ *
  * @author jwen
  */
 @EnableDiscoveryClient

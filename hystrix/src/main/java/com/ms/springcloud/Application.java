@@ -12,8 +12,9 @@ import org.springframework.web.client.RestTemplate;
  * 容错服务主类
  *
  * [关键代码]
- *   1. 启动类上额外加上@EnableCircuitBreaker
- *   2. 熔断保护 @HystrixCommand
+ *   1. 依赖spring-cloud-starter-hystrix
+ *   2. 启动类上额外加上@EnableCircuitBreaker 或@EnableHystrix
+ *   3. 在请求上增加熔断保护配置 @HystrixCommand
  *
  * @author jwen
  */

@@ -7,6 +7,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * Hello world!
  *
+ * [关键代码]
+ *   1. 启动类上额外加上EnableDiscoveryClient
+ *
  * @author jwen
  */
 @EnableDiscoveryClient

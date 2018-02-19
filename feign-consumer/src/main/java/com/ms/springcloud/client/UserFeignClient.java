@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * 请编写类注释
+ * 声明式调用服务的接口类
  *
  * @author wenzongwei
  *         Date 18/2/18
