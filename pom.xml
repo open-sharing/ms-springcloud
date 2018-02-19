@@ -12,6 +12,7 @@
         <module>producer</module>
         <module>ribbon-consumer</module>
         <module>feign-consumer</module>
+        <module>hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
