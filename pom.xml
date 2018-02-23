@@ -14,6 +14,7 @@
         <module>feign-consumer</module>
         <module>hystrix</module>
         <module>hystrix-feign</module>
+        <module>hystrix-dashboard</module>
     </modules>
     <packaging>pom</packaging>
 
