@@ -24,5 +24,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
+        <!-- 依赖断路器hystrix (Feign自带断路依赖,为了支持端点/hystrix.stream而加) -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
     </dependencies>
 </project>
