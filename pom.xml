@@ -15,6 +15,7 @@
         <module>hystrix-ribbon</module>
         <module>hystrix-feign</module>
         <module>hystrix-dashboard</module>
+        <module>hystrix-turbine</module>
         <module>hystrix-ribbon-rabbitmq</module>
         <module>hystrix-turbine-rabbitmq</module>
     </modules>
